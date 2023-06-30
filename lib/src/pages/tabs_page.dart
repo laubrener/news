@@ -31,9 +31,9 @@ class Navigation extends StatelessWidget {
         currentIndex: navigationModel.currentPage,
         onTap: (value) => navigationModel.currentPage = value,
         items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.public), label: "Headlines"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.public), label: "Encabezados"),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Para ti"),
+              icon: Icon(Icons.person), label: "Favourites"),
         ]);
   }
 }

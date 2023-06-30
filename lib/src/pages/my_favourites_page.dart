@@ -30,7 +30,7 @@ class _MyFavouritesPageState extends State<MyFavouritesPage>
               alignment: Alignment.center,
               height: 50,
               child: Text(
-                "Mis encabezados",
+                "My headlines",
                 style: TextStyle(
                     color: myTheme.colorScheme.secondary, fontSize: 20),
               )),
